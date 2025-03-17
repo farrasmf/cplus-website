@@ -1,5 +1,3 @@
-
-
 export default function Home() {
   return (
     <div className="min-h-screen">
@@ -14,19 +12,29 @@ export default function Home() {
         <h1 className="text-7xl"> Meet our Creation</h1>
         <div className="flex justify-center items-center gap-20">
           <div className="flex flex-col justify-center items-center gap-4">
-            <img
-              src="/assets/images/goomah.png"
-              className="w-60"
-            />
-            <p className="text-2xl">@goomah</p>
+            <a href="https://app.goomah.id" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/assets/images/goomah.png"
+                className="w-60"
+                alt="Goomah"
+              />
+            </a>
+            <a href="https://instagram.com/__goomah__" target="_blank" rel="noopener noreferrer">
+              <p className="text-2xl">@goomah</p>
+            </a>
           </div>
 
           <div className="flex flex-col justify-center items-center gap-4">
-            <img
-              src="/assets/images/moon_muffin.png"
-              className="w-60"
-            />
-            <p className="text-2xl"> @moonmuffin.cx </p>
+            <a href="https://moonmuffin.byc.plus/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/assets/images/moon_muffin.png"
+                className="w-60"
+                alt="Moon Muffin"
+              />
+            </a>
+            <a href="https://instagram.com/moonmuffin.cx" target="_blank" rel="noopener noreferrer">
+              <p className="text-2xl"> @moonmuffin.cx </p>
+            </a>
           </div>
         </div>
       </div>
